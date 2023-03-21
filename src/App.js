@@ -1,10 +1,27 @@
-
-import './App.css';
+import "./App.css";
+import { User } from "./User";
 
 function App() {
+  // create a variable
+  const users = [
+    { name: "Fatima", age: 22 },
+    { name: "Alex", age: 27 },
+  ];
+
+  const planets = [
+    { name: "Mars", isGasPlanet: false },
+    { name: "Earth", isGasPlanet: false },
+    { name: "Jupiter", isGasPlanet: true },
+    { name: "Venus", isGasPlanet: false },
+    { name: "Neptune", isGasPlanet: true },
+    { name: "Uranus", isGasPlanet: true },
+  ];
+
   return (
     <div className="App">
-     Hello World
+      {planets.map(
+        (planet, key) => !planet.isGasPlanet && <h1>{planet.name}</h1>
+      )}
     </div>
   );
 }
