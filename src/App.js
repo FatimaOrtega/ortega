@@ -1,27 +1,20 @@
 import "./App.css";
-import { User } from "./User";
+import { useState } from "react";
+import { Planet } from "./Planet.js";
 
 function App() {
-  // create a variable
-  const users = [
-    { name: "Fatima", age: 22 },
-    { name: "Alex", age: 27 },
-  ];
+  const [age, setAge] = useState(0);
 
-  const planets = [
-    { name: "Mars", isGasPlanet: false },
-    { name: "Earth", isGasPlanet: false },
-    { name: "Jupiter", isGasPlanet: true },
-    { name: "Venus", isGasPlanet: false },
-    { name: "Neptune", isGasPlanet: true },
-    { name: "Uranus", isGasPlanet: true },
-  ];
+  const increaseAge = () => {
+   
+    setAge(age + 1);
+  };
 
   return (
     <div className="App">
-      {planets.map(
-        (planet, key) => !planet.isGasPlanet && <h1>{planet.name}</h1>
-      )}
+      {age}
+      <button onClick={increaseAge}>Increase the age</button>
+      <Planet name="Jupiter" age={22} />
     </div>
   );
 }
