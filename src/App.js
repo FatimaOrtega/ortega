@@ -3,7 +3,7 @@ import { useState } from "react";
 
 function App() {
   const [showText, setShowText] = useState(true);
-
+  const [textColor, setTextColor] = useState("blue");
   return (
     <div className="App">
       <button
@@ -11,10 +11,17 @@ function App() {
           setShowText(!showText);
         }}
       >
-        
         Click to Hide/Show
       </button>
-      {showText && <h1>Hello</h1>}
+
+      <button
+        onClick={() => {
+          setTextColor(textColor === "blue" ? "red": "blue" );
+        }}
+      >
+        Change color
+      </button>
+      {showText && <h1 style={{color: textColor}}>Hello</h1>}
     </div>
   );
 }
