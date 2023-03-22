@@ -8,11 +8,11 @@ function App() {
     <div className="App">
       <button
         onClick={() => {
-          alert("Hey");
+          setShowText(!showText);
         }}
       >
-        {" "}
-        Click to Alert{" "}
+        
+        Click to Hide/Show
       </button>
       {showText && <h1>Hello</h1>}
     </div>
