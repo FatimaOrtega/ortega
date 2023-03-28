@@ -10,12 +10,10 @@ import { DropDownSubMenu } from "./components/dropdownsubmenu";
 const App = () => {
   return (
     <>
-      <Navbar bg="dark" expand="lg" variant="dark">
+      <Navbar bg="white" expand="lg" variant="light">
         <Container>
-      
-          <Navbar.Brand href="/">
-           A-Ortega
-          </Navbar.Brand>
+          <img src={Logo} href="/" className='logo'/>
+         
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
