@@ -7,6 +7,9 @@ const App = () => {
   return (
     <>
       <NavigationBar />
+      <div className="HeaderSection">
+      Chicago Land’s Family Company
+      </div>
     </>
   );
 };

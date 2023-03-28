@@ -4,6 +4,7 @@ import Logo from "./assets/logo.svg"
 import { Container, Nav, Navbar, Row, Col, NavDropdown } from "react-bootstrap";
 import { DropDownMenu } from "./Dropdownmenu";
 import { DropDownSubMenu } from "./dropdownsubmenu";
+import "../App.css";
 
 export const NavigationBar = () => {
     return (
