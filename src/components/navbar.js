@@ -19,7 +19,7 @@ export const NavigationBar = () => {
               <Nav.Link href="/">Home</Nav.Link>
               <DropDownMenu title="Services" id="collabsible-nav-dropdown">
               <DropDownSubMenu href="#action/3.7" title="Installation">
-                  <NavDropdown.Item href="#action/3.1">A/C</NavDropdown.Item>
+                  <NavDropdown.Item href="/ac">A/C</NavDropdown.Item>
                   <NavDropdown.Item href="#action/9.1">Furnace</NavDropdown.Item>
                   <NavDropdown.Item href="#action/9.1">Water Heating</NavDropdown.Item>
                   <NavDropdown.Item href="#action/9.1">Ducts</NavDropdown.Item>
