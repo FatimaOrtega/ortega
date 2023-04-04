@@ -83,3 +83,13 @@
 
 }
 
+.acSection{
+  height: 60vh;
+  background-color: blue;
+}
+
+.furnaceSection{
+  height: 60vh;
+  background-color: greenyellow;
+}
+
