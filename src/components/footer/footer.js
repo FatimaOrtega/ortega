@@ -9,7 +9,7 @@ export const Footer = () => {
         <div className="row">
           {/* Column1 */}
           <div className="col">
-            <img src={Logo} href="/" className="logo-footer" />
+            <img src={Logo} href="/" className="logo-footer" alt="NA" />
             <ul className="list-unstyled">
               
             </ul>

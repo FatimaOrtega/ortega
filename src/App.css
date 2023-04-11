@@ -102,3 +102,11 @@
 .content-wrap{
   flex:1;
 }
+
+.font-link {
+  font-family: 'Barlow';
+}
+
+.font-linkSection {
+  font-family: 'Barlow Bold 700';
+}

@@ -12,7 +12,7 @@ export const NavigationBar = () => {
       <>
     <Navbar bg="white" expand="lg" variant="light">
         <Container>
-          <img src={Logo} href="/" className='logo'/>
+          <img src={Logo} href="/" className='logo' alt="NA"/>
          
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
