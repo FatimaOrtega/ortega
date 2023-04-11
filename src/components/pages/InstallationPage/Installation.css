@@ -1,0 +1,8 @@
+.installsection{
+color: #79A7FC;
+display: flex;
+flex-direction: row;
+justify-content: space-evenly;
+padding-top: 20px;
+height: 5vh;
+}

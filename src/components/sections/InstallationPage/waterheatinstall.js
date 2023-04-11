@@ -1,14 +1,14 @@
 import React from 'react'
 
-const  ac = () =>{
+const  waterheat = () =>{
   return ( 
-      <section id="ac">
+      <section id="waterheatinstall">
           <div className='acSection'>
-          This is the ABOUT Section
+          This is the water heating Section
           </div>
       </section>
           
           );
 };
 
-export default ac;
+export default waterheat;
