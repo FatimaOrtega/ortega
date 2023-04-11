@@ -26,7 +26,7 @@ export const Installation = () => {
           </Button>
         </div>
         {/* C2 */}
-        <div>The Ortega Process</div>
+        <div className="installProcess">The Ortega Process</div>
         <AC />
         <FURNACE />
         <WATERHEAT />

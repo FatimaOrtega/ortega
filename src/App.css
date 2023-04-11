@@ -84,13 +84,13 @@
 }
 
 .acSection{
-  height: 60vh;
-  background-color: blue;
+  height: 100vh;
+  background-color: #3A68BB;
 }
 
 .furnaceSection{
-  height: 60vh;
-  background-color: greenyellow;
+  height: 100vh;
+  background-color: #D3313A;
 }
 
 .page-container{

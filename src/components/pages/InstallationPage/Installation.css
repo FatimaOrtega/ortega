@@ -3,6 +3,12 @@ color: #79A7FC;
 display: flex;
 flex-direction: row;
 justify-content: space-evenly;
-padding-top: 20px;
+padding-top: 15px;
+margin-bottom: 20px;
 height: 5vh;
+}
+
+.installProcess {
+    height: 84vh;
+    background-color: #D3313A;
 }
