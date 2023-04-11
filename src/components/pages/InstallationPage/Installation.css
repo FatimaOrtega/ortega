@@ -31,3 +31,9 @@ height: 5vh;
     
     
 }
+
+@media (max-width: 991px) {
+    .processRules {
+        font-size: medium;
+    }
+}
