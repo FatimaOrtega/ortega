@@ -1,8 +1,8 @@
 import React from "react";
-import AC from "../../sections/InstallationPage/acinstall";
-import FURNACE from "../../sections/InstallationPage/furnaceinstall";
-import WATERHEAT from "../../sections/InstallationPage/waterheatinstall";
-import DUCT from "../../sections/InstallationPage/ductinstall";
+import AC from "../../sections/InstallationPage/acInstall/acinstall";
+import FURNACE from "../../sections/InstallationPage/furnaceInstall/furnaceinstall";
+import WATERHEAT from "../../sections/InstallationPage/waterheatInstall/waterheatinstall";
+import DUCT from "../../sections/InstallationPage/ductInstall/ductinstall";
 import Button from "@mui/material/Button";
 import "../../../App.css";
 import "./Installation.css";

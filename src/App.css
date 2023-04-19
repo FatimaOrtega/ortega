@@ -83,16 +83,6 @@
 
 }
 
-.acSection{
-  height: 100vh;
-  background-color: #3A68BB;
-}
-
-.furnaceSection{
-  height: 100vh;
-  background-color: #D3313A;
-}
-
 .page-container{
   display: flex;
   flex-direction: column;

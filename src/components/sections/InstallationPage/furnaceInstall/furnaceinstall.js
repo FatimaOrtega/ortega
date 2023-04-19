@@ -1,4 +1,5 @@
 import React from 'react'
+import "./furnaceinstall.css";
 
 const  furnace = () =>{
   return ( 

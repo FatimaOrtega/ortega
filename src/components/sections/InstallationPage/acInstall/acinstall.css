@@ -1,0 +1,17 @@
+.acSection{
+    height: 100vh;
+    background-color: #3A68BB;
+  }
+
+  .acinstallInfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    color: white;
+  }
+
+  .titleInstall{
+    
+    font-size: large;
+  }
