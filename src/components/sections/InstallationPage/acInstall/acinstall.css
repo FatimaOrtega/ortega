@@ -21,15 +21,15 @@
     border-radius: 5px;
     width: 258px;
     height: 63px;
-    background: white;
-    color:black;
+    background: #EF575F;
+    color:white;
     box-shadow: none;
     
   }
 
   .acinstallInfo button:hover {
-    background: #EF575F;
-    color:white;
+    background: white;
+    color:black;
   }
 
 
