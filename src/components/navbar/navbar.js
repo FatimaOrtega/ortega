@@ -13,7 +13,7 @@ export const NavigationBar = () => {
     <Navbar bg="white" expand="lg" variant="light">
         <Container>
           <img src={Logo} href="/" className='logo' alt="NA"/>
-         
+         <div className='alignNav'>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
@@ -30,7 +30,8 @@ export const NavigationBar = () => {
               <Nav.Link href="aboutUs">About Us</Nav.Link>
               <Nav.Link href="contactUs">Contact Us</Nav.Link>
             </Nav>
-          </Navbar.Collapse>
+              </Navbar.Collapse>
+              </div>
         </Container>
       </Navbar>
       </>

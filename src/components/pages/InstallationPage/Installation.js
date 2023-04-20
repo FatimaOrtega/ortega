@@ -13,16 +13,16 @@ export const Installation = () => {
       <div className="row">
         {/* C1 */}
         <div className="installsection ">
-          <Button variant="contained" href="#acinstall">
+          <Button variant="outlined" href="#acinstall">
             Air Conditioning
           </Button>
-          <Button variant="contained" href="#furnaceinstall">
+          <Button variant="outlined" href="#furnaceinstall">
             Furnace
           </Button>
-          <Button variant="contained" href="#waterheatinstall">
+          <Button variant="outlined" href="#waterheatinstall">
             Water Heating
           </Button>
-          <Button variant="contained" href="#ductinstall">
+          <Button variant="outlined" href="#ductinstall">
             Ducts
           </Button>
         </div>

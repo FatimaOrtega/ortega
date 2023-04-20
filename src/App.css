@@ -100,3 +100,8 @@
 .font-linkSection {
   font-family: 'Barlow Bold 700';
 }
+
+.alignNavalignNav {
+  display: flex;
+  align-items: flex-end;
+}
